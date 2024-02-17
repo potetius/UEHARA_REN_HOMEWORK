@@ -76,7 +76,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                   ],
                 ),
-                SizedBox(width: 20),
+                const SizedBox(width: 20),
                 Column(
                   children: [
                     CountBody(name:'second', number: 2, color: color,),
